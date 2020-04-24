@@ -3,7 +3,7 @@
 var http  = require('http');
 var fs  = require('fs');
 var url  = require('url');
-
+const PORT = process.env.PORT || 5000
 
 
 http.createServer(function(req,res){
@@ -30,6 +30,6 @@ console.log(q,err);
 	// console.log("...Incoming request:" + req.url);
 	return res.end();
 });
-}).listen(8080);
+}).listen(PORT);
 
 console.log("Server listening on port 8080..");
