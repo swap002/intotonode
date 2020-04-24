@@ -1,0 +1,19 @@
+{
+  "name": "nodes",
+  "version": "12.13.1",
+  "description": "Simple Website",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swap002/intotonode.git"
+  },
+  "author": "Swapnil Patil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swap002/intotonode/issues"
+  },
+  "homepage": "https://github.com/swap002/intotonode#readme"
+}
